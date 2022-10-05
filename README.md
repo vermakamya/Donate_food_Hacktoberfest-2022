@@ -1,4 +1,4 @@
-<div align="center"> <img align="center" alt="dschackfest" src="https://user-images.githubusercontent.com/84925346/193271219-6360d311-ea13-42eb-8822-4ec2fd854ee5.jpeg" height='150' width='350'></div>
+<div align="center"> <img align="center" alt="dschackfest" src="https://images.prismic.io/www-static/1cd0d641-4e0e-4ba3-8386-3125627394fa_Email+Banners-Dark.png?auto=compress,format" height='300' width='600'></div>
 
 <!-- <div>
     <img align=top src="https://miro.medium.com/max/1400/1*c4YgRXYQayOVWxV37ourrw.png" height="100" width="50%"/>
