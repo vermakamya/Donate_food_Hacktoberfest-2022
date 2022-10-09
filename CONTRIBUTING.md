@@ -11,11 +11,11 @@ for example: I have added an issue regarding donation from try to code for donat
 ## How to contribute? 🤝
 
 - `Fork` this repo.
-- Ask to assign an issue from existing or by creating one
-- when assigned clone the repo.
+- `Ask to Assign` an issue from existing or by creating one.
+- When assigned `Clone the repo`.
 - `Write into a file` of proper category: <br/>
-- Make a new branch <new_branch>
-- add the changes made
+- Make a `New Branch` <new_branch>.
+- `Add` the changes made.
 - `Push the changes`with commit messages on whatever you added.
 - `Compare And Pull Request` with proper description and title.
 -  Wait for me to `review` and `merge` your contribution.
