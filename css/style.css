@@ -590,11 +590,16 @@ pre code {
 
 .container {
   width: 100%;
+  display: flex;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  align-items: baseline;
+  justify-content: left;
+  flex-direction: column;
 }
+
 
 @media (min-width: 576px) {
   .container {
@@ -634,8 +639,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -305px;
+  margin-left: 184px;
 }
 
 .no-gutters {
@@ -11863,10 +11868,17 @@ textarea.form-control {
 }
 
 .ftco-footer {
+ 
   font-size: 16px;
   padding: 7em 0;
   background: #252525;
 }
+
+/* .footer_align{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 .ftco-footer .ftco-footer-logo {
   text-transform: uppercase;
