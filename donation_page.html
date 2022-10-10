@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/donation_form.css">
+    <title>Donate for charity</title>
+    <style>
+        .button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+    </style>
+</head>
+<body>
+    <div class="doncon">
+        <div class="donbox">
+            <div style="font-size: 24px;"class="title">DONOR FORM</div>
+            <div style="display:flex; flex-direction: row;"class="inner">
+                  <div style="" class="fields">
+                <input type="text" id="firstName" placeholder="First Name"> </input>
+                <input style="margin-top: 19px;" type="text" id="lastName" placeholder="Last Name"> </input>
+                <input style="margin-top: 19px;" type="number" id="phone"placeholder="Mobile"></input>
+                <input style="margin-top: 19px;" type="text" id="email" placeholder="Email"> </input>
+            </div>
+            <div style="display:flex; flex-direction:column; margin-left:10%;" class="donate">
+               
+                      <div style="margin-top:15% ;text-align:center;"class="button-5">Rs.200</div>
+                      <div style="margin-top:12px ;text-align:center;"class="button-5">Rs.500</div>
+                      <div style="margin-top:12px;text-align:center;"class="button-5">Rs.1000</div>
+                      <div style="margin-top:12px ;text-align:center;"class="button-5">Rs. 
+                        <input type="text" class="set-amount" placeholder=""></input></div> 
+            </div>
+        </div> 
+        <div style="display:flex; justify-content: center;" class=" btn-6">
+        <div style="margin-top:24px; width:95%;text-align:center;"class="button-5">Donate Food</div>
+        </div>
+        <div style="font-size: 40px;" class="footer">DONATE NOW!</div>
+         </div>
+        </div>
+    
+</body>
+</html>
