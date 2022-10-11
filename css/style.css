@@ -13196,7 +13196,29 @@ textarea.form-control {
 .owl-dots .owl-dot.active {
   background: #f44336 !important;
 }
-
+.btn-1 {
+  display: flex;
+  margin: 0;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background: #fd7e14;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  left: 45%;
+}
+.btn-1:hover {
+  display: flex;
+  margin: 0;
+  position: relative;
+  align-items: center;
+   background: #fd7e14;
+   border: none;
+   opacity: 85%;
+   padding: 10px 20px;
+   color: #fff;
+}
 
 
 
