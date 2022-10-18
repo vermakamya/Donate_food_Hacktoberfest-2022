@@ -24,14 +24,42 @@
 
 	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
 	<link rel="stylesheet" href="css/jquery.timepicker.css">
-
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
+<style>
+	#btnScrollToTop{
+		position: fixed;
+		right:10px;
+		bottom: 10px;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background: hsl(200, 77%, 57%);
+		box-shadow: 0 0 10px rgba(0, 0 ,0, 0.125);
+		color: #ffffff;
+		outline: none;
+		cursor: pointer;
+		border: none;
+	}
+	#btnScrollToTop:active{
+		/* background: rgba(33, 158, 216, 0.2) ; */
+		background: #1d5191;
+
+	}
+
+</style>
 
 <body>
+
+<!-- Scroll to top button -->
+<button id="btnScrollToTop">
+	<i class="material-icons">arrow_upward</i>
+</button>
 
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
@@ -501,6 +529,22 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/script.js"></script>
+	<script>
+		const btnScrollToTop = document.querySelector('#btnScrollToTop');
+		btnScrollToTop.addEventListener('click', function(){
+			// window.scrollTo(0,0);
+			// window.scrollTo({
+			// 	top:0,
+			// 	left:0,
+			// 	behavior:"smooth"
+
+			// })
+
+			$("html, body").animate({ scrollTop: 0},"slow");
+
+		});
+
+	</script>
 
 </body>
 
