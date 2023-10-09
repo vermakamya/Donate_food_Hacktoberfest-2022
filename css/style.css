@@ -9105,7 +9105,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  padding: 7em 0;
+  padding: 3em 0;
   background: #252525;
 }
 .ftco-footer .ftco-footer-logo {
@@ -10062,6 +10062,11 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
           animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round;
+}
+
+#medic-donation-icon {
+  width: 100px;
+  height: 100px;
 }
 
 @-webkit-keyframes loader-rotate {
