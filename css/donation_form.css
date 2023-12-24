@@ -1,0 +1,83 @@
+html,body{
+    height: 100vh;
+}
+
+.doncon{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}  
+
+.donbox{
+    width: 470px;
+	height: 480px;
+    background-color: rgb(6, 76, 168);
+    /* border-top-left-radius: 2px;
+    border-top-right-radius: 2px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div .donbox .title{
+background-color: cornflowerblue;
+color:white;
+width:100%;
+margin-top: -8px;
+
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+font-size: 25px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+
+div .donbox .title :hover{
+background: greenyellow;
+}
+.donbox .donate{
+	width: 30%;
+	display: flex;
+    flex-direction: column;
+	/* position: absolute; */
+	top: 60px;
+	right: 15px;
+}
+.donbox .inner .fields input{
+    padding:10px;
+    margin-left: 15%;
+
+}
+
+
+.fields{
+    
+    display:flex;
+    width:50%;
+    flex-direction: column;
+    margin-top: 5%;  
+}
+.fields input{
+    border-radius: 4px;
+    text-align: center;
+}
+
+.donbox .inner .donate .button-5 input{
+    
+width:50%;
+border-radius: 3px;
+}
+div .donbox .footer{
+    background-color: cornflowerblue;
+    color:white;
+    width:100%;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
